@@ -1,0 +1,11 @@
+.child1 {
+  background-color: aqua;
+  position: relative;
+  top: 5px;
+}
+.child2 {
+  background-color: green;
+}
+.child3 {
+  background-color: red;
+}
