@@ -16,3 +16,23 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+/* direct child div is selected */
+/* .container > div {
+  background-color: blue;
+} */
+
+/* selects all the child items */
+/* .container div {
+  background-color: aqua;
+} */
+
+/* Next Sibling Combinator/Selector  */
+/* div + p {
+  color: brown;
+} */
+
+/* Subsequent Sibling Combinator/Selector(~) */
+/* div ~ p {
+  color: brown;
+} */
