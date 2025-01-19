@@ -1,7 +1,18 @@
-div {
+.box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 20;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
