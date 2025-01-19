@@ -1,0 +1,48 @@
+/* .box {
+  background-color: red;
+
+  color: white;
+  font-size: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+} */
+
+/* .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100px 300px 50px 250px;
+  row-gap: 20px;
+  column-gap: 50px;
+} */
+
+.container {
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas:
+    "header header header"
+    "link contents ads"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.link {
+  grid-area: link;
+}
+
+.contents {
+  grid-area: contents;
+}
+
+.ads {
+  grid-area: ads;
+}
+
+.footer {
+  grid-area: footer;
+}

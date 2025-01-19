@@ -36,3 +36,16 @@
 /* div ~ p {
   color: brown;
 } */
+
+/* Not visited link */
+a:link {
+  color: red;
+}
+/* Visited link */
+a:visited {
+  color: chartreuse;
+}
+
+a:hover {
+  color: brown;
+}
