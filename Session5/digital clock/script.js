@@ -17,11 +17,8 @@ function showTime() {
 
   let time = `${hours} : ${minutes} : ${seconds} ${session}`;
   document.getElementById("clock").innerHTML = time;
+  setTimeout(showTime, 1000);
 }
 
 showTime();
-// setInterval(() => {
-//   showTime();
-// }, 1000);
-
-setInterval(showTime, 1000);
+// setInterval(showTime, 1000);
