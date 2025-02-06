@@ -53,3 +53,8 @@ h1 {
 .set {
   margin: 10% auto;
 }
+
+.pressed {
+  box-shadow: 0 3px 4 px #dbedf3;
+  opacity: 0.5;
+}
