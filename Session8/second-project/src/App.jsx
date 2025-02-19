@@ -1,21 +1,23 @@
-import React, { useState } from "react ";
+import React, { useState } from "react";
 
 const App = () => {
-  let name = "";
+  let name = "Rahul";
+
+  const [userName, setuserName] = useState("James");
+
   function handleClick(event) {
-    name = event.target.value;
-    console.log("Name", name);
+    console.log("Name", userName);
   }
 
   return (
     <div>
-      <h1>Hello World - {name}</h1>
+      <h1>Hello World - {userName}</h1>
       <button onClick={handleClick}>Submit</button>
       <input
         type="text"
         placeholder="Enter name"
         onChange={(e) => {
-          name = e.target.value;
+          setuserName(e.target.value);
         }}
       />
     </div>
